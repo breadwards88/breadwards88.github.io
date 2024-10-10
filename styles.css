@@ -7,3 +7,14 @@ h1 {
     color:aliceblue;
     text-align: center;
 }
+
+.projects { 
+    display:flex; flex-wrap:wrap; 
+} 
+.project {
+width: 30%;
+margin: 10px;
+padding: 20px 10px;
+background: rgb(234, 224, 138); 
+border-radius: 25%;
+}
