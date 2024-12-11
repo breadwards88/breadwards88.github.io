@@ -16,6 +16,7 @@ h2
     display:flex; flex-wrap:wrap; 
 } 
 .project {
+    align-content: center;
 width: 40%;
 margin: 25px;
 padding: 20px 10px;
