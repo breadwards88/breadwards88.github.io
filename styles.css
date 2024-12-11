@@ -1,7 +1,7 @@
 body {
     background-color:seagreen;
     font-family: Georgia, Arial, Helvetica, Arial;
-}
+
 
 h1 {
     color:aliceblue;
@@ -61,4 +61,4 @@ border-radius: 25%;
             margin-left: 100px;
             justify-content: center;
         }
-                    
+    }     
