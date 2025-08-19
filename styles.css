@@ -13,10 +13,9 @@ h2
     text-align: center;  
 }
 .projects { 
-    display:flex; flex-wrap:wrap; 
+    display:flex; flex-wrap:wrap;  image
 } 
 .project {
-    align-content: center;
 width: 40%;
 margin: 25px;
 padding: 20px 10px;
