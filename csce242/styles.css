@@ -13,17 +13,17 @@ body {
 /* Typography */
 
 h1 {
-    color: coral
+    color: coral;
 }
 
 h2 {
-    color:coral
+    color:coral;
 }
 
 p {
-    color:gray
+    color:aquamarine;
 }
 li {
     text-decoration: none;
-    color:aquamarine
+    color:aquamarine;
 }
