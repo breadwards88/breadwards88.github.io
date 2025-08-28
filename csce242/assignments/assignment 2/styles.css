@@ -1,0 +1,40 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:url("images/cooking.jpg");
+    background-size: cover;
+}
+#writing {
+    background: gainsboro;
+    width:60%;
+    margin:auto;
+    padding:2%;
+}
+
+/* Table */
+td {
+    border:2px solid bisque;
+    padding:3px 6px;
+}
+
+th {
+    background: gainsboro;
+}
+
+/*Images*/
+#paprika {
+    border:5px solid ghostwhite;
+    padding:2px 2px;
+}
+
+#wontonious {
+    border:5px solid ghostwhite;
+    padding:2px 2px;
+}
+
+/* Typography */
+h1 {
+    color:darkslategray;
+}
+h2 {
+    color:darkslategray;
+}

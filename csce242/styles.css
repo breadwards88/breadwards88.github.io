@@ -1,13 +1,29 @@
 /* Structure */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: indigo;
+    background-size: cover;
+}
+
+#writing {
+    background: green;
+    
+}
 
 /* Typography */
 
 h1 {
-    color:green
+    color: coral
 }
+
 h2 {
-    color:green
+    color:coral
 }
+
 p {
-    color:yellow
+    color:gray
+}
+li {
+    text-decoration: none;
+    color:aquamarine
 }
