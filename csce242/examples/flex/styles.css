@@ -33,6 +33,15 @@ body {
     width:30%
 }
 
+/* Gallery */
+#gallery {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#
+
+
 /* Images */
 img {
     max-width:100%;
