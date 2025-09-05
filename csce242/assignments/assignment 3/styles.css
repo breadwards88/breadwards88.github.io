@@ -13,10 +13,16 @@ body {
     color:green;
     padding:5px;
     border-radius:5px;
+    text-align: center;
 }
 
 #m-content {
     padding:5px;
+}
+
+.col1of2 {
+    padding: 5px;
+    margin: 5px;
 }
 
 #m-footer {
@@ -37,7 +43,16 @@ img {
 }
 
 #main-nav li {
-    
+    list-style-type: none;
+    padding:5px;
+    background-color: chocolate;
+    border-left: green;
+    border-right: green ;
+}
+
+#main-nav a {
+    text-align: center;
+    color:white;
 }
 
 #main-nav {
@@ -56,7 +71,11 @@ h1 {
         width:70%;
     }
 
-    .columns {
+    #main-nav li,.col1of2 {
+        flex: 1;
+    }
+
+    .flex-container {
         display:flex;
     }
 

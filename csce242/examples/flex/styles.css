@@ -1,3 +1,8 @@
+:root {
+    --primary-color:#D97F77;
+
+}
+
 body {
     background: #D97F77;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +21,16 @@ body {
     color: white;
     border-radius:5px;
     padding:5px;
+    position:relative;
+}
+
+#main-header img {
+    display:block;
+    position:aboslute;
+    top:0;
+    left:0;
+    width:75px;
+    border-radius:50px;
 }
 
 #main-content section, #main-content aside {
@@ -23,10 +38,26 @@ body {
 }
 
 .squirrel {
-    background:#595924;
+    background:var(--5);
     padding:5px;
     border-radius:5px;
     margin:5px;
+}
+
+/* Showcase */
+#showcase {
+    position:relative;
+}
+
+#showcase p {
+    background:rgba(0,0,0, 0.7);
+    color:white;
+    padding:10px;
+    width:fit-content;
+
+    position:relative;
+    bottom:20%;
+    left:5%; 
 }
 
 .squirrel .columns div {
@@ -39,7 +70,15 @@ body {
     justify-content: space-between;
 }
 
-#
+#gallery section {
+    text-align: center;
+    width:25%;
+}
+
+#gallery img {
+    padding:5px;
+
+}
 
 
 /* Images */
@@ -48,10 +87,19 @@ img {
 }
 
 /* Main Navigation */
+nav-ul {
+    list-style-type:none ;
+    padding-left:0;
+}
+
 
 #main-nav ul {
     list-style-type: none; /* remove the bullets */
     padding-left:0;
+}
+
+nav a {
+    text-decoration:none;
 }
 
 #main-nav li {
@@ -66,6 +114,25 @@ img {
     padding:10px 5px;
     display:block;
     text-decoration: none; /*remove the underlines*/
+}
+#login-nav {
+    position:absolute;
+    top:2.5%;
+    right:2.5%;
+}
+
+#login-nav a {
+    color:white;
+    padding:5px;
+    display:inline;
+}
+
+#login-nav a hover {
+    border-bottom: 1px solid;
+}
+
+#login-nav li:not(:last-child)::after {
+    content:"|";
 }
 
 #main-nav a:hover {
