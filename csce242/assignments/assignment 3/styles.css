@@ -93,6 +93,9 @@ h1 {
     .four {
         flex:4;
     }
+    #main-nav ul {
+        display:flex;
+    }
 
     #main-nav li {
         flex:1;
