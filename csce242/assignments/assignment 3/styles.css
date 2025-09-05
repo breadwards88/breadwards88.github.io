@@ -33,7 +33,7 @@ body {
 .col1of6 {
     padding: 5px;
     margin:5px;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #side-nav a {
@@ -137,6 +137,7 @@ h1 {
     
     .col1of6 {
         flex:1;
+
     }
 
     .flex-container {
