@@ -29,20 +29,11 @@ body {
     color: white;
 }
 
-.col1of6 {
-    padding: 5px;
-    margin:5px;
-    flex-direction: column;
-}
-
 #side-nav a {
     color: white;
 }
 
-.col1of2 {
-    padding: 5px;
-    margin: 5px;
-}
+
 
 
 #m-footer {
@@ -132,13 +123,16 @@ h1 {
         flex-direction: column;
     }
     
-    .col1of3 {
-        flex:3;
+    .col1of2 {
+    padding: 5px;
+    margin: 5px;
     }
-    
-    .col1of6 {
-        flex:1;
 
+    .col1of6 {
+    padding: 5px;
+    margin:5px;
+    flex:1;
+    flex-direction: column;
     }
 
     .flex-container {
