@@ -24,6 +24,10 @@ body {
     color: white;
 }
 
+#m-content2 p {
+    color:white;
+}
+
 #side-nav a {
     color: white;
 }
@@ -36,7 +40,7 @@ body {
 }
 
 #gallery {
-
+    background-color: cornflowerblue;
 }
 
 #m-content img {
