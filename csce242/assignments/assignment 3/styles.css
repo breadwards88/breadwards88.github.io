@@ -3,8 +3,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #content {
-    margin:auto;
-    background-color:antiquewhite;
     border-radius:2px;
     padding:2px;
 }
