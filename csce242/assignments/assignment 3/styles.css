@@ -129,6 +129,7 @@ h1 {
 
     .columns {
         display:flex;
+        flex-direction: column;
     }
     
     .col1of3 {
