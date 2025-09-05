@@ -20,7 +20,13 @@ body {
 }
 
 #m-content2 {
+    padding:5px;
+    margins:5px;
+}
 
+#m-content2 h3 {
+    text-align: center;
+    color: white;
 }
 
 .col1of6 {
@@ -47,8 +53,14 @@ body {
 
 }
 
-img {
+#m-content img {
     float: left;
+    max-width: 100%;
+}
+
+#m-content2 img {
+    float:top;
+    max-width: 100%;
 }
 
 #main-nav ul {
