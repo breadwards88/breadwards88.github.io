@@ -57,6 +57,8 @@ body {
 #m-content img {
     float: left;
     max-width: 100%;
+    padding: 5px;
+    margin: 5px;
 }
 
 #m-content2 img {
@@ -84,6 +86,26 @@ body {
 
 #main-nav {
 
+}
+
+#side-nav {
+    padding:5px;
+    background-color: chocolate;
+    margin: 5px;
+}
+
+#side-nav ul {
+    list-style-type: none;
+    padding-left: 0;;
+}
+
+#side-nav li {
+    list-style-type: none;
+   
+}
+
+#side-nav a {
+    color: white;
 }
 
 h1 {
