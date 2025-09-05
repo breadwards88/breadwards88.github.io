@@ -19,6 +19,10 @@ body {
     padding:5px;
 }
 
+.col1of3 {
+
+}
+
 .col1of2 {
     padding: 5px;
     margin: 5px;
@@ -72,6 +76,10 @@ h1 {
 
     #main-nav li,.col1of2 {
         flex: 1;
+    }
+    
+    .col1of3 {
+        flex:3;
     }
 
     .flex-container {
