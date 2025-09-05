@@ -2,11 +2,6 @@ body {
     background: beige;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#content {
-    border-radius:2px;
-    padding:2px;
-    margins: 2.5%;
-}
 
 #m-header {
     color:green;
@@ -75,10 +70,6 @@ body {
     color:white;
 }
 
-#main-nav {
-
-}
-
 #side-nav {
     padding:5px;
     background-color: chocolate;
@@ -109,7 +100,9 @@ h1 {
         background-color: bisque;
     }
     #content {
-        
+    border-radius:2px;
+    padding:2px;
+    margins: 2.5%;
     }
 
     #main-nav li,.col1of2 {
