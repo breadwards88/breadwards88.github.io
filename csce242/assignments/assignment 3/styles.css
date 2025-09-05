@@ -32,8 +32,14 @@ body {
     color:chocolate
 }
 
+#m-con2-titles {
+    background-color:cadetblue;
+    display: block;
+}
+
 #gallery {
     background-color: cornflowerblue;
+    display: block;
 }
 
 #m-content img {
