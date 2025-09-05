@@ -76,6 +76,8 @@ h1 {
 
     #main-nav li,.col1of2 {
         flex: 1;
+        border-style: solid 1px;
+        border-color: green;
     }
     
     .col1of3 {
