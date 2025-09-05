@@ -5,6 +5,7 @@ body {
 #content {
     border-radius:2px;
     padding:2px;
+    margins: 2.5%;
 }
 
 #m-header {
@@ -66,7 +67,7 @@ h1 {
         background-color: bisque;
     }
     #content {
-        width:70%;
+        
     }
 
     #main-nav li,.col1of2 {
