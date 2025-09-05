@@ -20,7 +20,7 @@ body {
 }
 
 #m-content2 {
-    
+
 }
 
 .col1of6 {
@@ -48,7 +48,7 @@ body {
 }
 
 img {
-
+    float: left;
 }
 
 #main-nav ul {
