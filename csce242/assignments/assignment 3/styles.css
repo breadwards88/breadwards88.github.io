@@ -33,7 +33,7 @@ body {
 .col1of6 {
     padding: 5px;
     margin:5px;
-    
+    flex-direction: column;
 }
 
 #side-nav a {
