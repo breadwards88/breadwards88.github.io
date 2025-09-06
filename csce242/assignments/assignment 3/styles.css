@@ -18,6 +18,8 @@ body {
     padding:5px;
     margin:5px;
     flex-wrap: wrap;
+    gap:5px;
+    display:flex;
 }
 
 #m-content2 h3 {
