@@ -3,6 +3,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#m-content2 aside {
+
+}
+
 #m-header {
     color:green;
     padding:5px;
@@ -81,8 +85,8 @@ body {
     padding:5px;
     background-color: chocolate;
     margin: 5px;
-    flex-direction: left;
-    
+   /* position: fixed; */
+    left: 0;
 }
 
 #side-nav ul {
