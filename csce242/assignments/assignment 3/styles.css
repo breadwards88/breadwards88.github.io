@@ -16,7 +16,8 @@ body {
 
 #m-content2 {
     padding:5px;
-    margins:5px;
+    margin:5px;
+    flex-wrap: wrap;
 }
 
 #m-content2 h3 {
@@ -34,10 +35,14 @@ body {
 
 #m-con2-titles {
     background-color:cadetblue;
+    margin: 5px;
+    padding:5px;
 }
 
 #gallery {
-    background-color: cornflowerblue;
+    background-color:cornflowerblue;
+    margin:5px;
+    padding:5px;
 }
 
 #m-content img {
@@ -76,6 +81,7 @@ body {
     background-color: chocolate;
     margin: 5px;
     flex-direction: left;
+    
 }
 
 #side-nav ul {
@@ -87,7 +93,6 @@ body {
 
 #side-nav li {
     list-style-type: none;
-    display:;
    
 }
 
