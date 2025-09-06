@@ -36,16 +36,15 @@ body {
 }
 
 #m-con2-titles {
-    background-color:cadetblue;
     margin: 5px;
     padding:5px;
 }
 
 #gallery {
-    background-color:cornflowerblue;
     margin:5px;
     padding:5px;
 }
+
 
 #m-content img {
     float: left;
@@ -120,6 +119,14 @@ h1 {
         flex: 1;
         border-style: solid 1px;
         border-color: green;
+    }
+
+    .gal {
+         background-color:cornflowerblue;
+    }
+
+    .c2 {
+            background-color:cadetblue;
     }
 
     .columns {
