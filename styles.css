@@ -1,37 +1,112 @@
-p {
-    text-align: center;
-    color: #ffc745;
+html {
+    scroll-behavior: smooth;
 }
+
 body {
-    background: rgb(184, 138, 232);
-    font-family: Arial, Helvetica, sans-serif;
-}
-.title
-{
-    font-size: 36;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    color: #444;
+    line-height: 1.6;
 }
 
-#header {
-    color:green
+header {
+    background: #EEF5A8;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    flex-wrap: wrap;
 }
-.about {
+
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #659367;
+}
+
+nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #659367;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 5%;
+}
+
+section {
+    margin-bottom: 4rem;
+    padding-top: 6rem;
+    margin-top: -4rem;
+}
+
+h2 {
+    border-bottom: 3px solid #659367;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.about-content {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-content img {
+    border-radius: 8px;
+    width: 200px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.project-item {
+    display: flex;
+    gap: 1.5rem;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.project-item img {
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.project-info h3 {
+    margin-top: 0;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
     text-align: center;
-    color: green;
+    padding: 3rem 1rem;
 }
 
-.projects {
-    background: #f8dab0
+footer a {
+    color: #659367;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
-
-.left {
-    text-align: left;
-}
-
-.green {
-    color: green;
-}
-
-.attention {
-    font-weight: bold;;
-}
-
