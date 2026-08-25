@@ -1,0 +1,36 @@
+/* Structural */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(images/toy-tractor-compared-to-the-real-thing.png);
+    background-size: stretch;
+}
+#content {
+    background-color: skyblue;
+    box-shadow: -18px 14px 11px 13px rgba(0, 255, 64, 0.89);
+    border-radius: 8px;
+    width:70%;
+
+    margin:auto;    /*center in the page*/
+    border-radius:5px;
+    border: 5px solid grey;
+}
+header, main, footer {
+    padding: 15px;
+}
+header, footer {
+    background-color: lightblue;
+    color: black;
+}
+/* Navigation */
+
+/* Typography */
+h1 {
+    color:blue;
+}
+h2 {
+
+    color:blue;
+}
+p {
+    color:teal;
+}
