@@ -1,0 +1,57 @@
+/*Base Settings*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:url(images/calzone.jpg);
+    background-size: cover;
+}
+#content {
+    background-color: #37F994;
+    border-radius: 8px;
+    width:80%;
+    margin:auto;
+    border-radius:15px;
+    border: 10px solid #679DA9;
+}
+header, main {
+    padding: 15px;
+    
+}
+img {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 5px solid #679DA9;
+}
+
+/*Font Settings*/
+h1 {
+    color:#E242EB;
+}
+h2 {
+    color:#E242EB;
+}
+p {
+    color:#7324A8;
+}
+th {
+    color:#E242EB;
+    border: 8px solid #679DA9;
+}
+td {
+    color:#7324A8;
+}
+
+/*Table Settings*/
+#table {
+    background-color: #37F994;
+    border-radius: 8px;
+    
+    width:40%;
+    margin:auto;
+    border-radius:5px;
+    border: 5px solid #679DA9;
+    padding: 10px;
+}
