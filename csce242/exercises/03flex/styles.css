@@ -1,0 +1,75 @@
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+#content {
+    width:80%;
+    margin:auto;
+}
+#main-header {
+    background-color:bisque;
+}
+#sidebar, #info {
+    padding: 5px;
+}
+#sidebar {
+    background-color:aliceblue;
+}
+#info {
+    background-color:aquamarine
+}
+/* Navigation */
+#main-nav, #quick-links {
+    list-style-type: none;
+    padding-left:0;
+}
+#main-nav li {
+    background-color: darkslateblue;
+    padding:5px;
+    border-bottom: 1px solid white;
+}
+
+#main-nav a {
+    color:white;
+    text-decoration:none; /*Remove Underline*/
+}
+
+/* Typography */
+#main-header h1 {
+    text-align:center;
+    padding-top:15px;
+}
+/* Responsive Design */
+@media (min-width: 1000px) {
+    .columns {
+        display:flex;
+    }
+    /*Applies flex 1 to all list items in main nav instead of having to assign the one class to every single one*/
+    #main-nav li {
+        flex:1;
+        border:0;
+    }
+    #main-nav {
+        width:fit-content;
+        margin:auto;
+    }
+    .one {
+        flex: 1;
+    }
+    .two {
+        flex: 2;
+    }
+    .three {
+        flex: 3;
+    }
+    .four {
+        flex: 4;
+    }
+    .five {
+        flex: 5;
+    }
+    .six {
+        flex: 6;
+    }
+}
