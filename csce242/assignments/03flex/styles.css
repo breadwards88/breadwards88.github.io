@@ -1,0 +1,53 @@
+/* Base Settings */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+#content {
+    width:90%;
+    margin:auto;
+}
+#sidebar {
+        background-color: #9D891B;
+    }
+header, footer {
+background-color: #537100;
+}
+nav {
+    
+}
+
+/* Navigation Settings */
+
+/* Typography Settings */
+article {
+    background-color:#0F577F;
+}
+/* Responsive Design */
+@media (min-width: 1000px) {
+    .columns {
+        display:flex;
+    }
+    .rows {
+        
+    }
+    
+    .one {
+        flex: 1;
+    }
+    .two {
+        flex: 2;
+    }
+    .three {
+        flex: 3;
+    }
+    .four {
+        flex: 4;
+    }
+    .five {
+        flex: 5;
+    }
+    .six {
+        flex: 6;
+    }
+}
