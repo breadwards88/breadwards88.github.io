@@ -3,7 +3,6 @@ body {
     background-color: #bbd0ff;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 #acontent {
     background-color: #cdb4db;
     border-radius: 10px;
@@ -12,12 +11,23 @@ body {
     border-radius:10px;
     border: 15px solid #f0e6ef;
 }
-
 header, footer {
     padding: 15px;
+    text-align: center;
 }
 main {
     padding: 20px;
+}
+#assignment {
+    background-color: #5d2a42;
+    border-radius: 10px;
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+    border: 15px solid #f0e6ef;
+}
+img {
+    object-fit: cover;
 }
 /*Font*/
 h1 {
@@ -28,7 +38,7 @@ h2 {
 }
 h3 {
     color:#fff9ec;
-    padding: 10px;
+    padding: 5px;
 }
 p {
     color:#fff9ec;
@@ -37,11 +47,38 @@ a {
     text-decoration: none;
     color:#97f9f9;
 }
-#assignment {
-    background-color: #5d2a42;
-    border-radius: 10px;
-    width:90%;
-    margin:auto;
-    border-radius:10px;
-    border: 15px solid #f0e6ef;
+article {
+    text-align: center;
+    padding:4px;
+    border: solid 10px #fff9ec;
+    margin: 5px;
+}
+article p {
+    text-align: left;
+    padding: 4px;
+}
+
+/*Responsive Design */
+@media (min-width: 1000px) {
+    .columns {
+        display:flex;
+    }
+    .one {
+        flex: 1;
+    }
+    .two {
+        flex: 2;
+    }
+    .three {
+        flex: 3;
+    }
+    .four {
+        flex: 4;
+    }
+    .five {
+        flex: 5;
+    }
+    .six {
+        flex: 6;
+    }
 }
