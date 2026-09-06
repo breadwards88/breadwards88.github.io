@@ -7,9 +7,46 @@ body {
     width:80%;
     margin:auto;
 }
+
+/* Header */
 #main-header {
     background-color:bisque;
+    position:relative;
 }
+#logo {
+    margin:10px;
+    position:absolute;
+    top:1em;
+    left:1em;
+}
+
+/* Hero */
+#hero {
+    position:relative;
+}
+#hero-description {
+    position:relative;
+    top:60%;
+    left:5%;
+    background:rgba(255,255,255,0.8);
+    padding:10px;
+    font-size:1.5em;
+}
+.hero-arrow {
+    position:absolute;
+    top:22%;
+    font-size:8em;
+    color:white;
+    text-decoration: none;
+}
+#hero-arrow-right {
+    right:2%;
+}
+#hero-arrow-left {
+    left:2%;
+}
+
+/*Sidebar and Info*/
 #sidebar, #info {
     padding: 5px;
 }
@@ -20,7 +57,7 @@ body {
     background-color:aquamarine
 }
 /* Navigation */
-#main-nav, #quick-links {
+#main-nav, #quick-links, #login-nav ul {
     list-style-type: none;
     padding-left:0;
 }
@@ -33,6 +70,24 @@ body {
 #main-nav a {
     color:white;
     text-decoration:none; /*Remove Underline*/
+}
+/* Login Navigation */
+#login-nave {
+    position:absolute;
+    top:1%;
+    right:1%;
+    
+}
+#login-nav a {
+    color:#c06c84;
+    font-size:1.5em;
+}
+#login-naav li {
+    display:inline-block;
+}
+#login-nav li:not(:last-child):not(:first-child)::after {
+content: " | ";
+color:#c06c84;
 }
 
 /* Typography */
