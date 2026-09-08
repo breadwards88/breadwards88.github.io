@@ -54,10 +54,18 @@
 #connection2 {
     background:#EDEDED;
     padding-top:3%;
-    padding-left:5%;
-    padding-right:5%;
+
     padding-bottom:3%;
-    text-align:left;
+    text-align:center;
+}
+#connection2 div {
+    border-bottom: 1px solid gray;
+}
+#connectionlast {
+    padding-left: 2%;
+}
+#connection2 div:last-child {
+    border-bottom:none;
 }
 #lastlinks {
     background: #75000A;
@@ -99,7 +107,7 @@
 }
 #pquote-img {
     padding-left:30%;
-    border-radius:50%;
+    border-radius:25%;
 }
 #connection2-img {
     padding-left:5%;
@@ -125,11 +133,12 @@
     padding: 5px;
     color:white;
     text-decoration:none;
-    position:relative;
-    margin:0;
-    padding:0;
-    border:0;
-    font:Arial;
+    padding-right:10px;
+    border-right: 1px solid white;
+    padding-left:10px;
+}
+#header-nav a:last-child {
+    border-right:none;
 }
 #top-nav a {
     color:white;
@@ -191,8 +200,13 @@
     color:#75000A;
 }
 #footer-nav a{
-    padding-right:1%;
+    padding-right:10px;
     text-decoration: none;
+    border-right: 1px solid white;
+    padding-left:10px;
+}
+#footer-nav a:last-child {
+    border-right:none;
 }
 .arrow {
     border: solid white;
@@ -224,11 +238,12 @@
 #header-nav {
     background: black;
     padding-left:5%;
+    padding-bottom:1%;
     padding-top:1%;
 }
 #top-nav {
     background:#75000A;
-    padding-left: 50%;
+    padding-left: 45%;
     padding-top:1%;
     padding-bottom:1%;
 }
@@ -236,12 +251,15 @@
     background:black;
     border-top:solid white 1px;
     padding-left:10%;
+    padding-top:1%;
+    padding-bottom:1%;
 }
 
 /* Tables */
 #table-nav {
     background: #75000A;
     padding-left:5%;
+    padding-bottom:5%;
 }
 #table-nav th, a {
     color:white;
@@ -293,12 +311,23 @@
         margin-top:5%;
         padding-top:3%;
     }
+    #connection2 {
+        text-align:left;
+        padding-right:5%;
+        border-right:1px solid gray;
+    }
+    #connection2 div:last-child {
+        border-right:none;
+    }
     #pquote {
-    padding-top:10%;
-    padding-bottom:7%;
+        padding-top:10%;
+        padding-bottom:7%;
+    }
+    #pquote-img {
+        padding-left:30%;
     }
     #smallsec {
-    padding-top:5%;
+        padding-top:5%;
     }
     #pquote-img {
         padding-left:0%;
