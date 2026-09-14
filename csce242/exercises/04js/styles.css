@@ -1,0 +1,51 @@
+/* Base Settings */
+
+
+/* Image Settings */
+
+
+/* Typography */
+
+
+/* Sections */
+.project-card {
+    background: var(--cards-bg);
+    border: 2px solid var(--cards-bg)
+    margin-bottom:0;
+    min-height:200px;
+}
+
+
+/* columns for all devices */
+.columns-mobile {
+    display:flex;
+}
+
+/* Styles for JS */
+#ball {
+    height:50px;
+    width:50px;
+    background-color: purple;
+    border-radius:50%;
+
+}
+.bouncing-ball {
+    animation-name:bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.cool-link {
+    background:teal;
+    color:magenta;
+}
+
+/* Bounce Animations */
+@keyframes bounce {
+    0% {bottom:75%; background: red;}
+    10%{background:orange;}
+    50% {background:yellow; bottom:0%;}
+    
+}
+
+
+/* Responsive Design */
