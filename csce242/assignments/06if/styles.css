@@ -2,9 +2,6 @@
 :root {
     background: #847C88;
 }
-body {
-
-}
 .hidden {
     display: none;
 }
@@ -60,6 +57,10 @@ p {
     text-decoration: none;
     font-size: 20px;
     text-align: center;
+    border-right: 1px solid #76BD6C;
+}
+#nav-exercise a:last-child {
+    border-right: none;
 }
 
 /* Responsive Design */
