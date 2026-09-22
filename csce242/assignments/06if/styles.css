@@ -1,22 +1,66 @@
 /* Base Settings */
 :root {
-
+    background: #847C88;
 }
 body {
 
 }
-.hidden{
+.hidden {
     display: none;
+}
+#exercise1 {
+    background: #582DCF;
+    width:90%;
+    padding:20px;
+    margin:3%;
+    border:solid #768C9A 5px;
+}
+#exercise2 {
+    background: #582DCF;
+    width:90%;
+    border:solid #768C9A 5px;
+    margin: 3%;
+    padding: 15px;
 }
 
 /* Typography */
-
-#semester-days{
-
+h1 {
+    color:#76BD6C;
+    text-align:center;
+    font-size: 40px;
+}
+h2 {
+    color:#0B5922;
+    text-align:center;
+}
+h3 {
+    color:#76BD6C;
+    text-align:center;
+}
+p {
+    color:#76BD6C;
+    text-align:center;
+}
+.bolded {
+    font-weight:bold;
+}
+#absences {
+    width: 90%;
 }
 
-/* */
+/* Navigation */
 
+#nav-exercise {
+    width: 100%;
+    padding-left:44%;
+    padding-right:50%;
+}
+#nav-exercise a {
+    color: #76BD6C;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
 
 /* Responsive Design */
 @media (min-width: 1000px) {
