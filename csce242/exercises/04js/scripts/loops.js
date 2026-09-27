@@ -49,10 +49,63 @@ document.getElementById("btn-show-toys").onclick = () => {
     const toys = ("doll", "skate board", "mini car", "board game", "bracelets");
     const toyList = document.getElementById("toy-list");
     toyList.innerHTML = "";
-
+/*
     for(let i =0; i< toys.length; i++){
         const p = document.createElement("p");
         toyList.append(p);
 
     }
+        */
+toys.forEach(()=>{
+    const p =document.createElement("p").innerHTML;
+    p.innerHTML = toy;
+    toysList.append(p);
+});
+};
+
+//show a table of toys and prices
+document.getElementById("btn-show-toy-prices").onclick = () => {
+    const div = document.getElementById("toy-info");
+    div.innerHTML = "";
+
+    const toyMap= [];
+    toyMap["doll"]=129.99;
+    toyMap["skate board"] = 200.00;
+    toyMap["mini car"]=1.99;
+    toyMap["board game"]=20.99;
+    toyMap["bracelettes"]=19.24;
+
+    const table = document.createElement("table");
+    div.append(table);
+    let tr = document.createElement("tr");
+    table.append(header);
+    let th =document.createElement("th");
+    tr.append(headerCol1);
+    headerCol1.innerHTML="Name";
+    th = document.createElement("th");
+    tr.append(headerCol2);
+    th.innerHTML="Price";
+
+    for(let toy in toyMap) {
+        let tr=document.createElement("tr");
+        table.append(tr);
+        let td = document.createElement("td");
+        td.innerHTML = toy;
+        tr.append(td);
+        td = document.createElement("td");
+        td.innerHTML = `$$(toyMap[toy])`;
+        tr.append(td);
+    }
+};
+
+const createTD = (data) => {
+    const td = document.createElement("td");
+    td.innerHTML = data;
+    return td;
 }
+
+const createTR = () => {
+    const tr = document.createElement("tr");
+    
+}
+    
