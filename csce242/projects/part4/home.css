@@ -6,7 +6,8 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 header{
     background: #FFFFFF;
     border-bottom: solid black 5px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
+    padding-left:5%;
 }
 #section1{
     background-image:linear-gradient(to right, #F8EAFF,#EBFFFA,#D4EEFF);
@@ -41,7 +42,7 @@ header{
     background:white;
     box-shadow: 10px 10px rgba(0,0,0,0.2);
     border-radius:100px;
-    transform:translateX(500px);
+    transform:translateX(100px);
 }
 .cloud::after, .cloud::before{
     content:"";
@@ -69,7 +70,7 @@ header{
     background:#FFFFFF;
     box-shadow: 10px 10px rgba(0,0,0,0.2);
     border-radius:33px;
-    transform:translateX(320px);
+    transform:translateX(130px);
 }
 .cloud-small::after, .cloud-small::before{
     content:"";
@@ -97,7 +98,7 @@ header{
     background:black;
     box-shadow: 10px 10px rgb(255, 255, 255);
     border-radius:100px;
-    transform:translateX(500px);
+    transform:translateX(100px);
 }
 .bcloud::after, .bcloud::before{
     content:"";
@@ -120,14 +121,13 @@ header{
 }
 .grid1{
     display:grid;
-    grid-template-columns:500px 500px ;
+    grid-template-columns:300px ;
     padding-left: 15%;
     position:relative;
 }
 .grid2{
     display:grid;
-    grid-template-columns:300px 300px 300px;
-    padding:5%;
+    grid-template-columns:300px;
     padding-left:20%;
 }
 .blurb1{
@@ -173,12 +173,19 @@ footer{
     display:none;
 }
 /* Navigation Settings */
+.header-nav {
+    padding:auto;
+    margin:auto;
+}
 .nav-highlight{
     background:#FFF7CC;
     border: solid black 4px;
     border-radius: 15%;
     box-shadow: 5px 5px black;
     margin-right:15px;
+    text-decoration: none;
+    color:black;
+    padding:auto;
 }
 .nav-highlightd{
     background:#EBFFFA;
@@ -186,6 +193,8 @@ footer{
     border-radius: 15%;
     box-shadow: 5px 5px black;
     margin-right:15px;
+    text-decoration: none;
+    color:black;
 }
 
 /* Typography */
@@ -205,19 +214,14 @@ a {
 
 }
 .header-title{
-    padding-left: 2%;
+    padding-left: 30%;
 }
-#header-nav a{
-    color: black;
-    padding: 1%;
-    font-size: 1.0em;
-    text-decoration: none;
-}
+
 .s1-caption{
     display:flex;
     justify-content: center;
     text-align: center;
-    padding:1%;
+    padding:3%;
     width:10%;
     margin:auto;
 }
@@ -251,7 +255,8 @@ a {
 }
 .emoji-thought{
     position:absolute;
-    top:-10px;
+    top:30px;
+    left:370px;
     font-size: 30px;
     padding:0;
 }
@@ -263,19 +268,19 @@ a {
 }
 .emoji-moon{
     position:absolute;
-    top:-80px;
+    top:180px;
     font-size: 100px;
     padding:0;
 }
 .emoji-star{
     position:absolute;
-    top:180px;
+    top:460px;
     font-size: 100px;
     padding:0;
 }
 .emoji-void{
     position:absolute;
-    top:180px;
+    top:740px;
     font-size: 100px;
     padding:0;
 }
@@ -287,7 +292,7 @@ a {
     color:white;
     border-radius: 20%;
     border: none;
-    right:980px;
+    right:277px;
 }
 .slumber{
     position: absolute;
@@ -296,7 +301,7 @@ a {
     color:white;
     border-radius: 20%;
     border: none;
-    right:480px;
+    right:277px;
 }
 .dreams{
     position: absolute;
@@ -305,7 +310,7 @@ a {
     color:white;
     border-radius: 20%;
     border: none;
-    right:980px;
+    right:277px;
 }
 .lack{
     position: absolute;
@@ -314,12 +319,189 @@ a {
     color:white;
     border-radius: 20%;
     border: none;
-    right:480px;
+    right:277px;
 }
 
 
 /* Responsive Design */
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
+    header{
+        padding-bottom: 15px;
+    }
+    .s1-caption{
+    align-self: center;
+    padding:1%;
+    }
+    .s1-title{
+        align-items: center;
+        width: 30%;
+        padding-left:40%;
+        font-size: 35px;
+    }
+    .cloud{
+    margin-top:70px;
+    width:300px;
+    height:103px;
+    background:white;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    border-radius:100px;
+    transform:translateX(500px);
+    }
+    .cloud::after, .cloud::before{
+        content:"";
+        position:relative;
+        display:inline-block;
+        background:inherit;
+        border-radius:inherit;
+    }
+    .cloud::after{
+        width:70px;
+        height:70px;
+        top:-120px;
+        left:-80px;
+    }
+    .cloud::before{
+        width:150px;
+        height:150px;
+        top: -70px;
+        left:120px;
+    }
+    .cloud-small{
+        margin-top:70px;
+        width:100px;
+        height:39px;
+        background:#FFFFFF;
+        box-shadow: 10px 10px rgba(0,0,0,0.2);
+        border-radius:33px;
+        transform:translateX(320px);
+    }
+    .cloud-small::after, .cloud-small::before{
+        content:"";
+        position:relative;
+        display:inline-block;
+        background:inherit;
+        border-radius:inherit;
+    }
+    .cloud-small::after{
+        width:25px;
+        height:25px;
+        top:-40px;
+        left:-25px;
+    }
+    .cloud-small::before{
+        width:50px;
+        height:50px;
+        top: -20px;
+        left:40px;
+    }
+    .bcloud{
+        margin-top:70px;
+        width:300px;
+        height:103px;
+        background:black;
+        box-shadow: 10px 10px rgb(255, 255, 255);
+        border-radius:100px;
+        transform:translateX(500px);
+    }
+    .bcloud::after, .bcloud::before{
+        content:"";
+        position:relative;
+        display:inline-block;
+        background:inherit;
+        border-radius:inherit;
+    }
+    .bcloud::after{
+        width:70px;
+        height:70px;
+        top:-120px;
+        left:-80px;
+    }
+    .bcloud::before{
+        width:150px;
+        height:150px;
+        top: -70px;
+        left:120px;
+    }
+    .grid1{
+    display:grid;
+    grid-template-columns:500px 500px ;
+    padding-left: 15%;
+    position:relative;
+    }
+    .grid2{
+        display:grid;
+        grid-template-columns:300px 300px 300px;
+        padding:5%;
+        padding-left:20%;
+    }
+    .emoji-thought{
+    position:absolute;
+    top:-10px;
+    left:1380px;
+    font-size: 30px;
+    padding:0;
+    }
+    .emoji-sun{
+        position:absolute;
+        top:-80px;
+        font-size: 100px;
+        padding:0;
+    }
+    .emoji-moon{
+        position:absolute;
+        top:-80px;
+        font-size: 100px;
+        padding:0;
+    }
+    .emoji-star{
+        position:absolute;
+        top:180px;
+        font-size: 100px;
+        padding:0;
+    }
+    .emoji-void{
+        position:absolute;
+        top:180px;
+        font-size: 100px;
+        padding:0;
+    }
+    /* Buttons */
+    .waking{
+        position: absolute;
+        font-size: 30px;;
+        background-color:black;
+        color:white;
+        border-radius: 20%;
+        border: none;
+        right:980px;
+    }
+    .slumber{
+        position: absolute;
+        font-size: 30px;;
+        background-color:black;
+        color:white;
+        border-radius: 20%;
+        border: none;
+        right:480px;
+    }
+    .dreams{
+        position: absolute;
+        font-size: 30px;;
+        background-color:black;
+        color:white;
+        border-radius: 20%;
+        border: none;
+        right:980px;
+    }
+    .lack{
+        position: absolute;
+        font-size: 30px;;
+        background-color:black;
+        color:white;
+        border-radius: 20%;
+        border: none;
+        right:480px;
+    }
     .columns {
         display:flex;
     }
