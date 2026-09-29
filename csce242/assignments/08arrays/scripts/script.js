@@ -36,13 +36,7 @@ const setDestinations = () => {
             toggleList(linkThree);
             toggleList(linkFour);
         }
-        else{
-            
-        }
-    document.getElementById("link1").onclick =setFrame("link1");
-    document.getElementById("link2").onclick =setFrame("link2");
-    document.getElementById("link3").onclick =setFrame("link3");
-    document.getElementById("link4").onclick =setFrame("link4");
+        else{}
 }
 const setFrame = (element) => {
     const iFrame = document.getElementById("frame");
@@ -76,9 +70,7 @@ const setFrame = (element) => {
         }
         toggleList(iFrame);
     }
-    else{
-
-    }
+    else{}
 }
 
 const toggleList = (link) => {
@@ -86,4 +78,20 @@ const toggleList = (link) => {
 }
 window.onload = () => {
     document.getElementById("dd").onchange= setDestinations;
+    document.getElementById("link1").onclick = (e) => {
+        e.preventDefault();
+        setFrame("link1");
+    };
+    document.getElementById("link2").onclick = (e) => {
+        e.preventDefault();
+        setFrame("link2");
+    };
+    document.getElementById("link3").onclick = (e) => {
+        e.preventDefault();
+        setFrame("link3");
+    };
+    document.getElementById("link4").onclick = (e) => {
+        e.preventDefault();
+        setFrame("link4");
+    };
 }
