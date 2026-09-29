@@ -1,0 +1,21 @@
+/* Base Settings */
+
+.hidden {
+    display:none;
+}
+/*  */
+
+
+/* Dropdowns */
+.dd-container{
+    position:relative;
+    display:inline-block;
+}
+.dd-content{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+}
+
+/*  */
