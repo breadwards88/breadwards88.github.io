@@ -2,35 +2,43 @@
 :root{
 background:#FFFFFF;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+--orange:#FFF7CC;
+--purple:#F8EAFF;
+--green:#EBFFFA;
+--blue:#D4EEFF;
+--white:#FFFFFF;
+--pink:#F4EBF0;
+--ptext-color:gray;
+--text-color:black;
 }
 header{
-    background: #FFFFFF;
+    background: white-color;
     border-bottom: solid black 5px;
     padding-bottom: 50px;
     padding-left:5%;
 }
 #section1{
-    background-image:linear-gradient(to right, #F8EAFF,#EBFFFA,#D4EEFF);
+    background-image:linear-gradient(to right, var(--purple),var(--green),var(--blue));
     padding:5%;
     padding-bottom:10%;
 }
 .section-splitter{
-    background: #FFFFFF;
+    background: var(--white);
     text-decoration: wavy;
     width:100%;
     margin-bottom: 3%;
 }
 #section2{
-    background: #FFFFFF;
+    background: var(--white);
     padding-bottom:5%;
 }
 #section3{
-    background: #F8EAFF;
+    background: var(--purple);
     align-content: center;
     text-align: center;
 }
 #section4{
-    background: #FFF7CC;
+    background: var(--orange);
     align-content: center;
     padding:5%;
 }
@@ -39,8 +47,8 @@ header{
     margin-top:70px;
     width:300px;
     height:103px;
-    background:white;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    background:var(--white);
+    box-shadow: 10px 10px var();
     border-radius:100px;
     transform:translateX(100px);
 }
@@ -67,8 +75,8 @@ header{
     margin-top:70px;
     width:100px;
     height:39px;
-    background:#FFFFFF;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    background:var(--white);
+    box-shadow: 10px 10px var(--text-color);
     border-radius:33px;
     transform:translateX(130px);
 }
@@ -95,8 +103,8 @@ header{
     margin-top:70px;
     width:300px;
     height:103px;
-    background:black;
-    box-shadow: 10px 10px rgb(255, 255, 255);
+    background:var(--text-color);
+    box-shadow: 10px 10px var(--white);
     border-radius:100px;
     transform:translateX(100px);
 }
@@ -130,43 +138,43 @@ header{
     grid-template-columns:300px;
     padding-left:20%;
 }
-.blurb1{
-    background:#EBFFFA;
-    border: solid black 4px;
+.slot1{
+    background:var(--green);
+    border: solid var(--text-color) 4px;
     border-radius: 15%;
     box-shadow: 5px 5px black;
     margin:20px;
 }
-.blurb2{
-    background:#D4EEFF;
-    border: solid black 4px;
+.slot2{
+    background:var(--blue);
+    border: solid var(--text-color) 4px;
     border-radius: 15%;
     box-shadow: 5px 5px black;
     margin:20px;
 }
-.blurb3{
+.slot3{
     background:#F4EBF0;
-    border: solid black 4px;
+    border: solid var(--text-color) 4px;
     border-radius: 15%;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px var(--text-color);
     margin:20px;
 }
-.blurb4{
-    background:#FFF7CC;
-    border: solid black 4px;
+.slot4{
+    background:var(--orange);
+    border: solid var(--text-color) 4px;
     border-radius: 15%;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px var(--text-color);
     margin:20px;
 }
-.blurb5{
-    background:#FFD6E7;
-    border: solid black 4px;
+.slot5{
+    background:var(--pink);
+    border: solid var(--text-color) 4px;
     border-radius: 15%;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px var(--text-color);
     margin:20px;
 }
 footer{
-    background: #FFF7CC;
+    background: var(--orange);
     padding-top: 2%;
 }
 .hidden{
@@ -178,23 +186,23 @@ footer{
     margin:auto;
 }
 .nav-highlight{
-    background:#FFF7CC;
-    border: solid black 4px;
+    background:var(--orange);
+    border: solid var(--text-color) 4px;
     border-radius: 15%;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px var(--text-color);
     margin-right:15px;
     text-decoration: none;
-    color:black;
+    color:var(--text-color);
     padding:auto;
 }
 .nav-highlightd{
-    background:#EBFFFA;
-    border: solid black 4px;
+    background:var(--green);
+    border: solid var(--text-color) 4px;
     border-radius: 15%;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px var(--text-color);
     margin-right:15px;
     text-decoration: none;
-    color:black;
+    color:var(--text-color);
 }
 
 /* Typography */
@@ -288,8 +296,8 @@ a {
 .waking{
     position: absolute;
     font-size: 30px;;
-    background-color:black;
-    color:white;
+    background-color:var(--text-color);
+    color:var(--white);
     border-radius: 20%;
     border: none;
     right:277px;
@@ -297,8 +305,8 @@ a {
 .slumber{
     position: absolute;
     font-size: 30px;;
-    background-color:black;
-    color:white;
+    background-color:var(--text-color);
+    color:var(--white);
     border-radius: 20%;
     border: none;
     right:277px;
@@ -306,8 +314,8 @@ a {
 .dreams{
     position: absolute;
     font-size: 30px;;
-    background-color:black;
-    color:white;
+    background-color:var(--text-color);
+    color:var(--white);
     border-radius: 20%;
     border: none;
     right:277px;
@@ -315,8 +323,8 @@ a {
 .lack{
     position: absolute;
     font-size: 30px;;
-    background-color:black;
-    color:white;
+    background-color:var(--text-color);
+    color:var(--white);
     border-radius: 20%;
     border: none;
     right:277px;
@@ -342,8 +350,8 @@ a {
     margin-top:70px;
     width:300px;
     height:103px;
-    background:white;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    background:var(--white);
+    box-shadow: 10px 10px var(--text-color);
     border-radius:100px;
     transform:translateX(500px);
     }
@@ -370,8 +378,8 @@ a {
         margin-top:70px;
         width:100px;
         height:39px;
-        background:#FFFFFF;
-        box-shadow: 10px 10px rgba(0,0,0,0.2);
+        background:var(--white);
+        box-shadow: 10px 10px var(--text-color);
         border-radius:33px;
         transform:translateX(320px);
     }
@@ -398,8 +406,8 @@ a {
         margin-top:70px;
         width:300px;
         height:103px;
-        background:black;
-        box-shadow: 10px 10px rgb(255, 255, 255);
+        background:var(--text-color);
+        box-shadow: 10px 10px var(--white);
         border-radius:100px;
         transform:translateX(500px);
     }
@@ -469,8 +477,8 @@ a {
     .waking{
         position: absolute;
         font-size: 30px;;
-        background-color:black;
-        color:white;
+        background-color:var(--text-color);
+        color:var(--white);
         border-radius: 20%;
         border: none;
         right:980px;
@@ -478,8 +486,8 @@ a {
     .slumber{
         position: absolute;
         font-size: 30px;;
-        background-color:black;
-        color:white;
+        background-color:var(--text-color);
+        color:var(--white);
         border-radius: 20%;
         border: none;
         right:480px;
@@ -487,8 +495,8 @@ a {
     .dreams{
         position: absolute;
         font-size: 30px;;
-        background-color:black;
-        color:white;
+        background-color:var(--text-color);
+        color:var(--white);
         border-radius: 20%;
         border: none;
         right:980px;
@@ -496,8 +504,8 @@ a {
     .lack{
         position: absolute;
         font-size: 30px;;
-        background-color:black;
-        color:white;
+        background-color:var(--text-color);
+        color:var(--white);
         border-radius: 20%;
         border: none;
         right:480px;
