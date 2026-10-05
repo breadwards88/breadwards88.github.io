@@ -74,7 +74,8 @@ class Vacation {
         div1.classList.add("w3-modal");
         div2.classList.add("w3-modal-content");
         div3.classList.add("one");
-        div4.classList.add("one,column");
+        div4.classList.add("one");
+        div4.classList.add("column");
         span.classList.add("w3-button", "w3-display-topright");
 
         span.innerHTML = `X`;
