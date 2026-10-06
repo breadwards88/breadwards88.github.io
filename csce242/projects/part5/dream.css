@@ -101,29 +101,40 @@ footer{
 .hidden{
     display:none;
 }
+
 /* Navigation Settings */
 .header-nav {
-    padding:auto;
-    margin:auto;
+    background: var(--white);
+    overflow:hidden;
+    position:relative;
+}
+.header-nav a {
+    color: var(--text-color);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.header-nav a.icon{
+    background:var(--text-color);
+    display:block;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.header-nav a:hover{
+    background-color:var(--ptext-color);
 }
 .nav-highlight{
-    background:var(--orange);
-    border: solid var(--text-color) 4px;
-    border-radius: 15%;
-    box-shadow: 5px 5px var(--text-color);
-    margin-right:15px;
-    text-decoration: none;
-    color:var(--text-color);
-    padding:auto;
+    background-color:var(--orange);
+    color:var(--white);
 }
-.nav-highlightd{
-    background:var(--green);
-    border: solid var(--text-color) 4px;
-    border-radius: 15%;
-    box-shadow: 5px 5px var(--text-color);
-    margin-right:15px;
-    text-decoration: none;
-    color:var(--text-color);
+/* from w3 schools */
+.fa{
+    display:inline-block;font:normal normal normal 14px/1 fontawesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transform:translate(0, 0);
+}
+.fa-bars{
+    color: var(--white);
 }
 
 /* Typography */
@@ -137,7 +148,7 @@ h3 {
     color:var(--ptext-color);
 }
 .header-title{
-    padding-left: 30%;
+    padding-left: 10px;
 }
 .s2-title{
     padding-left:3%;
