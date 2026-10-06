@@ -39,7 +39,7 @@ header{
 #section4{
     background: var(--orange);
     align-content: center;
-    padding:5%;
+    padding:2%;
 }
 /* found this css from  https://lauryndbrown.github.io/2017/06/08/creating-clouds-in-css.html */
 .cloud{
@@ -105,7 +105,7 @@ header{
     background:var(--text-color);
     box-shadow: 10px 10px var(--white);
     border-radius:100px;
-    transform:translateX(100px);
+    transform:translateX(80px);
 }
 .bcloud::after, .bcloud::before{
     content:"";
@@ -162,8 +162,8 @@ header{
     margin:20px;
 }
 footer{
-    background: var(--orange);
-    padding-top: 2%;
+    background: var(--white);
+    padding:4px;
 }
 .hidden{
     display:none;
@@ -467,7 +467,7 @@ a {
         background:var(--text-color);
         box-shadow: 10px 10px var(--white);
         border-radius:100px;
-        transform:translateX(500px);
+        transform:translateX(550px);
     }
     .bcloud::after, .bcloud::before{
         content:"";
