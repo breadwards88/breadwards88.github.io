@@ -29,6 +29,7 @@ header{
 #section2{
     background: var(--orange);
     padding-bottom:5%;
+    padding-top:2%;
 }
 #section3{
     background: var(--blue);
@@ -48,7 +49,6 @@ header{
     border-radius: 15%;
     box-shadow: 5px 5px black;
     margin:20px;
-    width: 70%;
 }
 .slot2{
     background:var(--blue);
@@ -56,7 +56,6 @@ header{
     border-radius: 15%;
     box-shadow: 5px 5px black;
     margin:20px;
-    width: 70%;
 }
 .slot3{
     background:var(--purple);
@@ -64,7 +63,6 @@ header{
     border-radius: 15%;
     box-shadow: 5px 5px var(--text-color);
     margin:20px;
-    width: 70%;
 }
 .slot4{
     background:var(--orange);
@@ -72,7 +70,6 @@ header{
     border-radius: 15%;
     box-shadow: 5px 5px var(--text-color);
     margin:20px;
-    width: 70%;
 }
 .slot5{
     background:var(--pink);
@@ -80,7 +77,6 @@ header{
     border-radius: 15%;
     box-shadow: 5px 5px var(--text-color);
     margin:20px;
-    width: 70%;
 }
 footer{
     background: var(--white);
@@ -144,7 +140,7 @@ footer{
 }
 .grid1 section,
 .grid2 div {
-    margin: 0;
+    margin: 10px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -154,8 +150,8 @@ footer{
     align-items: center;
 }
 
-.grid1 h3, p {
-    padding-left: 1px;
+.grid2 h3, .grid1 p {
+    padding-right: 5px;
     text-align: center;
 }
 
@@ -254,7 +250,7 @@ table {
     width: 40%;
     margin-left:auto;
     margin-right:auto;
-    background: var(--text-color)
+    background: var(--ptext-color);
 }
 table, th, td{
     border: 4px solid var(--green);

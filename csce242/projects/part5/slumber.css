@@ -48,8 +48,6 @@ header{
     border-radius: 15%;
     box-shadow: 5px 5px black;
     margin:20px;
-    width: 70%;
-    padding:1%;
 }
 .slot2{
     background:var(--purple);
@@ -57,7 +55,6 @@ header{
     border-radius: 15%;
     box-shadow: 5px 5px black;
     margin:20px;
-    width: 70%;
 }
 .slot3{
     background:var(--orange);
@@ -65,7 +62,6 @@ header{
     border-radius: 15%;
     box-shadow: 5px 5px var(--text-color);
     margin:20px;
-    width: 70%;
 }
 .slot4{
     background:var(--pink);
@@ -73,15 +69,6 @@ header{
     border-radius: 15%;
     box-shadow: 5px 5px var(--text-color);
     margin:20px;
-    width: 70%;
-}
-.slot5{
-    background:var(--purple);
-    border: solid var(--text-color) 4px;
-    border-radius: 15%;
-    box-shadow: 5px 5px var(--text-color);
-    margin:20px;
-    width: 70%;
 }
 footer{
     background: var(--white);
@@ -140,7 +127,7 @@ footer{
     gap: 24px;
     max-width: 1000px;
     margin-inline: auto;
-    padding: 24px 16px;
+    padding: 24px 30px;
     box-sizing: border-box;
 }
 .grid1 section,
@@ -155,8 +142,8 @@ footer{
     align-items: center;
 }
 
-.grid1 h3, p {
-    padding-left: 1px;
+.grid2 h3, p {
+    padding-right: 5px;
     text-align: center;
 }
 
@@ -206,12 +193,13 @@ h3 {
     padding-left: 10px;
 }
 .s2-title{
-    padding-left:3%;
+    padding:1%;
 }
 .s2-interim{
     width: 30%;
     height:5%;
     align-self: center;
+    padding: 10px;
     padding-left:30%;
     padding-right:30%;
     margin: auto;
@@ -241,7 +229,10 @@ h3 {
 .grid1 h3, p{
     padding-left: 3%;
 }
-
+.quote{
+    margin-left: 10px;
+    padding-right: 10px;
+}
 .copyright{
     text-align: center;
 }
@@ -255,69 +246,66 @@ h3 {
     align-self: center;
 }
 .emoji-sleeper{
-    background: var(--white);
-    border: solid var(--text-color) 3px;
     font-size: 30px;
-    padding:0;
-    width: 10%;
+    padding-top:20px;
+    text-align: center;
+    margin: 0 auto;
 }
 .emoji-snooze{
-    background: var(--white);
-    border: solid var(--text-color) 3px;
     font-size: 30px;
-    padding:0;
+    padding-top:20px;
+    text-align: center;
+    margin: 0 auto;
 }
 .emoji-wave{
-    background: var(--white);
-    border: solid var(--text-color) 3px;
     font-size: 30px;
-    padding:0;
-    align-self: center;
+    padding-top:20px;
+    text-align: center;
+    margin: 0 auto;
 }
 .emoji-moon{
-    background: var(--white);
-    border: solid var(--text-color) 3px;
     font-size: 30px;
-    padding:0;
+    padding-top:20px;
+    text-align: center;
+    margin: 0 auto;
 }
 /* Buttons */
-.waking{
-    position: absolute;
-    font-size: 30px;;
-    background-color:var(--text-color);
-    color:var(--white);
-    border-radius: 20%;
-    border: none;
-    right:277px;
+.n1{
+    position:absolute;
+    font-size: 15px;;
+    background-color:var(--green);
+    color:var(--text-color);
+    border-radius: 10%;
+    border: solid 1px var(--text-color);
+    left:12%
 }
-.slumber{
+.n2{
     position: absolute;
-    font-size: 30px;;
-    background-color:var(--text-color);
-    color:var(--white);
+    font-size: 15px;;
+    background-color:var(--purple);
+    color:var(--text-color);
     border-radius: 20%;
-    border: none;
-    right:277px;
+    border: solid 1px var(--text-color);
+    left:32%;
 }
-.dreams{
+.n3{
     position: absolute;
-    font-size: 30px;;
-    background-color:var(--text-color);
-    color:var(--white);
+    font-size: 15px;;
+    background-color:var(--orange);
+    color:var(--text-color);
     border-radius: 20%;
-    border: none;
-    right:277px;
+    border: solid 1px var(--text-color);
+    left:52%;
 }
-.lack{
+.rem{
     position: absolute;
-    font-size: 30px;;
-    background-color:var(--text-color);
-    color:var(--white);
+    font-size: 15px;;
+    background-color:var(--pink);
+    color:var(--text-color);
     border-radius: 20%;
-    border: none;
-    right:277px;
+    border: solid 1px var(--text-color);
+    left:72%;
 }
-
 
 /* Responsive Design */
 @media (min-width: 1200px) {
@@ -336,10 +324,10 @@ h3 {
         box-sizing: border-box;
     }
     .grid2{
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         max-width: 1000px;
         margin-inline: auto;
-        padding: 24px 16px;
+        padding: 24px 24px;
         box-sizing: border-box;
     }
     .emoji-thought{
@@ -350,69 +338,64 @@ h3 {
     padding:0;
     }
     .emoji-sleeper{
-        background: var(--white);
-        border: solid var(--text-color) 3px;
-        font-size: 30px;
-        padding:0;
-        width:4%
+        font-size: 60px;
+        padding:10px;
+        margin: 0 auto;
+        text-align: center;
     }
     .emoji-snooze{
-        background: var(--white);
-        border: solid var(--text-color) 3px;
-        font-size: 30px;
-        padding:0;
-        width:4%
+        font-size: 60px;
+        padding:10px;
+        margin: 0 auto;
+        text-align: center;
     }
     .emoji-wave{
-        background: var(--white);
-        border: solid var(--text-color) 3px;
-        font-size: 30px;
-        padding:0;
-        width:4%
+        font-size: 60px;
+        padding:10px;
+        margin: 0 auto;
+        text-align: center;
     }
     .emoji-moon{
-        background: var(--white);
-        border: solid var(--text-color) 3px;
-        font-size: 30px;
-        padding:0;
-        width:4%
+        font-size: 60px;
+        padding:10px;
+        margin: 0 auto;
+        text-align: center;
     }
     /* Buttons */
     .n1{
-        position:absolute;
         font-size: 30px;;
         background-color:var(--green);
         color:var(--text-color);
         border-radius: 10%;
-        border: none;
-        left:80%
+        border: solid 3px var(--text-color);
+        left:15%
     }
     .n2{
         position: absolute;
         font-size: 30px;;
-        background-color:var(--text-color);
-        color:var(--white);
+        background-color:var(--purple);
+        color:var(--text-color);
         border-radius: 20%;
-        border: none;
-        left:80%;
+        border: solid 3px var(--text-color);
+        left:35%;
     }
     .n3{
         position: absolute;
         font-size: 30px;;
-        background-color:var(--text-color);
-        color:var(--white);
+        background-color:var(--orange);
+        color:var(--text-color);
         border-radius: 20%;
-        border: none;
-        left:80%;
+        border: solid 3px var(--text-color);
+        left:57%;
     }
     .rem{
         position: absolute;
         font-size: 30px;;
-        background-color:var(--text-color);
-        color:var(--white);
+        background-color:var(--pink);
+        color:var(--text-color);
         border-radius: 20%;
-        border: none;
-        left:80%;
+        border: solid 3px var(--text-color);
+        left:77%;
     }
     .columns {
         display:flex;

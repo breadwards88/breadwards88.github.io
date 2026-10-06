@@ -157,8 +157,8 @@ footer{
     align-items: center;
 }
 
-.grid1 h3, p {
-    padding-left: 1px;
+.grid1 h3, .grid1 p {
+    padding-right: 10px;
     text-align: center;
 }
 
