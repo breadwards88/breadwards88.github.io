@@ -3,7 +3,7 @@
         "title":"World Peace",
         "description":"A world where all nations live in harmony and conflicts are resolved peacefully.",
         "type":"Long-term",
-        "img_name":"",
+        "img_name":"https://breadwards88.github.io/csce242/projects/part7/images/peace.jpg",
         "yes_count":"0",
         "no_count":"0",
         "id":"1"
@@ -12,7 +12,7 @@
         "title":"End World Hunger",
         "description":"A world where no one goes hungry and has access to sufficient food.",
         "type":"Long-term",
-        "img_name":"",
+        "img_name":"https://breadwards88.github.io/csce242/projects/part7/images/food.jpg",
         "yes_count":"0",
         "no_count":"0",
         "id":"2"
@@ -21,7 +21,7 @@
         "title":"Free Education",
         "description":"A world where education is funded by government spending and accessible to all children.",
         "type":"Long-term",
-        "img_name":"",
+        "img_name":"https://breadwards88.github.io/csce242/projects/part7/images/education.jpg",
         "yes_count":"0",
         "no_count":"0",
         "id":"3"
@@ -30,7 +30,7 @@
         "title":"Free Healthcare",
         "description":"A world where healthcare is freely available to all individuals.",
         "type":"Long-term",
-        "img_name":"",
+        "img_name":"https://breadwards88.github.io/csce242/projects/part7/images/health.jpg",
         "yes_count":"0",
         "no_count":"0",
         "id":"4"
@@ -39,7 +39,7 @@
         "title":"Become a Star",
         "description":"To reach stardom and become a celebrated celebrity.",
         "type":"Long-term",
-        "img_name":"",
+        "img_name":"https://breadwards88.github.io/csce242/projects/part7/images/star.jpg",
         "yes_count":"0",
         "no_count":"0",
         "id":"5"
@@ -48,7 +48,7 @@
         "title":"To win the Lottery",
         "description":"Winning it big at the lottery so I can achieve financial freedom.",
         "type":"Short-term",
-        "img_name":"",
+        "img_name":"https://breadwards88.github.io/csce242/projects/part7/images/lottery.jpg",
         "yes_count":"0",
         "no_count":"0",
         "id":"6"
@@ -57,7 +57,7 @@
         "title":"To become an Astronaut",
         "description":"Learn all the knowledge and go through the training required to become an astronaut. Followed by being selected for the pace Program.",
         "type":"Long-term",
-        "img_name":"",
+        "img_name":"https://breadwards88.github.io/csce242/projects/part7/images/astronaut.jpg",
         "yes_count":"0",
         "no_count":"0",
         "id":"7"
@@ -66,7 +66,7 @@
         "title":"To Travel the World",
         "description":"To explore different countries, cultures, and experiences around the world.",
         "type":"Long-term",
-        "img_name":"",
+        "img_name":"https://breadwards88.github.io/csce242/projects/part7/images/travel.jpg",
         "yes_count":"0",
         "no_count":"0",
         "id":"8"
