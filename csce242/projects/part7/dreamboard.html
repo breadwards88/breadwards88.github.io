@@ -43,32 +43,29 @@
                 <h1 class="s2-content">Dreamboard</h1>
                 <h4 class="s2-content">What do you dream of?</h4>
                     <section class="slot1">
-                        <div>
-                            <label for="custom-dream">Enter that which you dream of or choose something you resonate with</label>
-                            <input id="custom-dream">
-                            <select>
-                                <option></option>
-                            </select>
-                        </div>
-                        <div>
-                            <div id="dreamboard"></div>
-                            <!--I am planning on using a bunch of javascript and maybe some json files to put a collage up of a bunch of different things people dream of, (logging people with just a name and a dream) and also allowing them to just pick another dream that someone already put into the database-->
+                        <div id="dreamboard" class="grid2">
                         </div>
                     </section>
             </div>
             <div id="section3">
                 <h1 class="s2-content">Contact Me</h1>
                 <div class="container">
-                    <form action="action_page.php">
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                        <label for="ename">Email</label>
-                        <input type="text" id="ename" name="email" placeholder="Your email..">
-                        <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                        <input type="submit" value="Submit">
+                    <form id="form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="bf38a2c8-a695-476b-bc4d-b031459a50e1">
+                        <p>
+                            <label for="contact-name">Your Name</label>
+                            <input type="text" id="contact-name" name="name" placeholder="Your name.." required/>
+                        </p>
+                        <p>
+                            <label for="contact-email">Your Email</label>
+                            <input type="email" id="contact-email" name="email" placeholder="Your email.." required/>
+                        </p>
+                        <textarea name="message" required></textarea>
+                        <button class="contact-button" type="submit">Submit</button>
                     </form>
                 </div>
+                <p id="result" class="hidden"></p>
+                
             </div>
         </main>
     </body>
@@ -78,4 +75,6 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/dreamboard.js"></script>
 </html>
