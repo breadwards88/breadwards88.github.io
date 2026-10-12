@@ -35,6 +35,38 @@ header{
     align-content: center;
     text-align: center;
 }
+#section3 .container{
+    display: flex;
+    justify-content: center;
+}
+#section3 form{
+    padding:10px;
+    margin: 20px auto;
+    width: min(24rem, calc(100% - 40px));
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#section3 form p{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-align:center;
+}
+#section3 form input, #section3 form textarea{
+    width: 100%;
+    box-sizing: border-box;
+}
+#section3 form textarea{
+    min-height: 8rem;
+}
+#section3 form button{
+    align-self: center;
+}
 #section4{
     background: var(--orange);
     align-content: center;
@@ -143,11 +175,12 @@ footer{
 }
 .grid2 section{
     text-align: center;
+    border: solid var(--text-color) 4px;
 }
 .grid2 iframe {
     display: block;
-    width:150px;
-    height:150px;
+    width:180px;
+    height:180px;
     border:0;
     margin: 0 auto;
 }
@@ -258,8 +291,8 @@ h3 {
 img {
     display:block;
     margin: auto;
-    width:150px;
-    height:150px;
+    width:180px;
+    height:180px;
     align-self: center;
 }
 

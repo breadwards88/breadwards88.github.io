@@ -1,6 +1,7 @@
 const showEmailResult = async (e) => {
     e.preventDefault();
     const result = document.getElementById("result");
+    result.classList.remove("hidden");
     let response = await getEmailResult(1000);
     if (response.status == 200)
     {
@@ -9,7 +10,6 @@ const showEmailResult = async (e) => {
     else {
         result.innerHTML = "There was an Error and Your Email was not Sent";
     }
-    result.classList("hidden").toggle();
 }
 
 const getEmailResult = async (e) => {

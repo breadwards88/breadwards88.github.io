@@ -46,7 +46,8 @@ const getDreamSection = (dream) => {
     return section;
 }
 
-/* For Later
+/* For Later Planning to let people click to rate which dreams they share and a section to reccomend dreams to
+add to the list along with a a caption of who suggested it if the user actually wants their name there
 const getDreamRating = (dream) => {
     let dreamRating = (dream.yes_count - dream.no_count);
     return dreamRating;
