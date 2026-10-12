@@ -30,9 +30,9 @@ const getDreamSection = (dream) => {
     section.append(h3);
     section.append(h4);
     if (dream.type === "Destination") {
-        let img = document.createElement("iframe");
-        img.src= dream.img_name;
-        section.append(img);
+        let iframe = document.createElement("iframe");
+        iframe.src= dream.img_name;
+        section.append(iframe);
     }
     else{
         let img = document.createElement("img")
@@ -42,12 +42,14 @@ const getDreamSection = (dream) => {
     let p = document.createElement("p");
     p.innerText= dream.description;
     section.append(p);
+    let input = document.createElement("input");
     return section;
 }
 
+/* For Later
 const getDreamRating = (dream) => {
     let dreamRating = (dream.yes_count - dream.no_count);
     return dreamRating;
 }
-
+*/
 window.onload = () => listDreams();
