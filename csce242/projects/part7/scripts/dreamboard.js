@@ -17,7 +17,7 @@ const listDreams = async () => {
     let dreamBoard = document.getElementById("dreamboard");
 
     dreams.forEach((dream) => {
-        dreamBoard.append(getDreamSection("section"));
+        dreamBoard.append(getDreamSection(dream));
     });
 }
 
@@ -29,18 +29,20 @@ const getDreamSection = (dream) => {
     h4.innerText = dream.type;
     section.append(h3);
     section.append(h4);
-    if (dream.type == "Destination") {
+    if (dream.type === "Destination") {
         let img = document.createElement("iframe");
+        img.src= dream.img_name;
+        section.append(img);
     }
     else{
         let img = document.createElement("img")
+        img.src= dream.img_name;
+        section.append(img);
     }
-    img.src= dream.img;
-    
-    section.append(img);
     let p = document.createElement("p");
     p.innerText= dream.description;
     section.append(p);
+    return section;
 }
 
 const getDreamRating = (dream) => {

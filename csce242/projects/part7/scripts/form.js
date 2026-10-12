@@ -9,7 +9,7 @@ const showEmailResult = async (e) => {
     else {
         result.innerHTML = "There was an Error and Your Email was not Sent";
     }
-    result.classList("hidden").toggle;
+    result.classList("hidden").toggle();
 }
 
 const getEmailResult = async (e) => {
